@@ -1,5 +1,5 @@
 function rot13(str) {
-  let array = [];
+  let newStr = "";
   let pairings = {
     A: "N",
     B: "O",
@@ -30,13 +30,12 @@ function rot13(str) {
   };
   for (let i = 0; i < str.length; i++) {
     if (pairings.hasOwnProperty(str[i])) {
-      array.push(pairings[str[i]]);
+      newStr += pairings[str[i]];
     } else {
-      array.push(str[i]);
+      newStr += str[i];
     }
   }
-
-  return array.join("");
+  return newStr;
 }
 
 // function rot13(str) {
@@ -56,7 +55,7 @@ function rot13(str) {
 // }
 
 console.log(rot13("SERR PBQR PNZC")); //FREE CODE CAMP
-// console.log(rot13("SERR CVMMN!")); //FREE PIZZA!
-// console.log(rot13("SERR YBIR?")); //FREE LOVE?
-// console.log(rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT."));
-// //THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.
+console.log(rot13("SERR CVMMN!")); //FREE PIZZA!
+console.log(rot13("SERR YBIR?")); //FREE LOVE?
+console.log(rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT."));
+//THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.
