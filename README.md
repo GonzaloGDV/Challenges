@@ -1,5 +1,7 @@
 # Coding Challenges
 
+I will be solving different challenges to practise my JavaScript skills. At the end of each one, you will find some test they have to pass. I am using Quokka to check them. The first five challenges will be from freeCodeCamp.
+
 ### 1 - Palindrome
 
 A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.

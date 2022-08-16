@@ -73,7 +73,7 @@ function convertToRoman(num) {
 //   return romanNum;
 // }
 
-// console.log(convertToRoman(2)); //string II.
+console.log(convertToRoman(2)); //string II.
 // console.log(convertToRoman(3)); // string III.
 // console.log(convertToRoman(4)); // string IV.
 // console.log(convertToRoman(5)); // string V.
@@ -98,4 +98,4 @@ function convertToRoman(num) {
 // console.log(convertToRoman(1006)); // string MVI
 // console.log(convertToRoman(1023)); // string MXXIII
 // console.log(convertToRoman(2014)); // string MMXIV
-console.log(convertToRoman(3999)); // string MMMCMXCIX
+//console.log(convertToRoman(3999)); // string MMMCMXCIX
