@@ -54,6 +54,7 @@ function rot13(str) {
 //   return newStr;
 // }
 
+// ---------- TEST ----------
 console.log(rot13("SERR PBQR PNZC")); //FREE CODE CAMP
 console.log(rot13("SERR CVMMN!")); //FREE PIZZA!
 console.log(rot13("SERR YBIR?")); //FREE LOVE?

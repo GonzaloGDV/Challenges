@@ -36,3 +36,11 @@ All letters will be uppercase. Do not transform any non-alphabetic character (i.
 
 Check if the passed string looks like a valid US phone number. The user may fill out the form field any way they choose as long as it has the format of a valid US number.
 The area code is required. If the country code is provided, you must confirm that the country code is 1. Return true if the string is a valid US phone number; otherwise return false.
+
+### 5 - Cash Register
+
+Design a cash register drawer that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument.
+The checkCashRegister() function should always return an object with a status key and a change key.
+Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the change due, or if you cannot return the exact change.
+Return {status: "CLOSED", change: [...]} with cash-in-drawer as the value for the key change if it is equal to the change due.
+Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.

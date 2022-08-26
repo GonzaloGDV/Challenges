@@ -14,6 +14,7 @@ function palindrome(str) {
 //   return true;
 // }
 
+// ---------- TEST ----------
 console.log(palindrome("race car")); //equal(true)
 // console.log(palindrome("not a palindrome")); //equal(false)
 // console.log(palindrome("A man, a plan, a canal. Panama")); //equal(true)

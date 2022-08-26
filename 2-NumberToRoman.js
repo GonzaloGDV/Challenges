@@ -73,6 +73,7 @@ function convertToRoman(num) {
 //   return romanNum;
 // }
 
+// ---------- TEST ----------
 console.log(convertToRoman(2)); //string II.
 // console.log(convertToRoman(3)); // string III.
 // console.log(convertToRoman(4)); // string IV.

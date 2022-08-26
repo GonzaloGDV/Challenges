@@ -19,6 +19,7 @@ function telephoneCheck(str) {
 //   return true;
 // }
 
+// ---------- TEST ----------
 console.log(telephoneCheck("555-555-5555")); //true.
 // console.log(telephoneCheck("1 555-555-5555")); //true.
 // console.log(telephoneCheck("1 (555) 555-5555")); //true.
